@@ -115,15 +115,7 @@ class _SecondPageState extends State<SecondPage> {
             children: [
               Column(
                 children: [
-                  Text(
-                    '',
-                    style: GoogleFonts.anton(
-                      fontSize: 60,
-                      letterSpacing: 10,
-                      color: Colors.red,
-                    ),
-                  ),
-                  const SizedBox(height: 50),
+                  const SizedBox(height: 140),
                   CircleAvatar(
                     backgroundImage: AssetImage('images/dice$result.jpg'),
                     radius: 120,
